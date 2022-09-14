@@ -15,5 +15,18 @@
         &:last-child {
             border-radius: 0 10px 10px 0;
         }
+
+        &--yes, &--no {
+            box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+        }
+
+        &--yes {
+            background-color: $green-scale-alert;
+            border-color: $green-scale-alert;
+        }
+        &--no {
+            background-color: $red-scale-alert;
+            background-color: $red-scale-alert;
+        }
     }
 }
