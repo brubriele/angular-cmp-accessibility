@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'a11y-p1';
+  title = 'Angular - Treinamento ALURA | Componentes Acessíveis';
+  public yesNoAnswer = 'no';
 }

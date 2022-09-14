@@ -1,0 +1,19 @@
+@import '../../../../assets/styles/variables';
+
+.button-group {
+    &__btn {
+        border: 1px solid $gray-scale-ligther;
+        padding: 0.5em 0.75em;
+        margin: 0;
+        color: black;
+        background-color: #fff;
+
+        &:first-of-type{
+            border-radius: 10px 0 0 10px;
+        }
+
+        &:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+}
